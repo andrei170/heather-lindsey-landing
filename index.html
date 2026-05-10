@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Busy Trader Inner Circle · Heather Lindsey</title>
+<meta name="description" content="The Busy Trader Inner Circle: capped private cohort for working-adult traders who have walked the bundle and are ready for the next room. Quarterly retreats. Monthly group calls with Heather. By application.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="The Busy Trader Inner Circle · Heather Lindsey">
+<meta property="og:description" content="If you have walked the bundle, this is the room above it.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://andrei170.github.io/heather-lindsey-landing/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--bg:#ffffff;--bg-soft:#fafaf7;--bg-card:#ffffff;--ink:#111111;--ink-soft:#333333;--ink-muted:#6b6b6b;--gold:#f1c40f;--gold-deep:#d4ac0d;--accent:#e74c3c;--accent-bright:#ec5e4e;--border:#ececec;--border-strong:#d4d4d4;--gold-soft:rgba(241,196,15,0.10);--accent-soft:rgba(231,76,60,0.08)}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;overflow-x:hidden}
+  .container{max-width:1100px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  .container-narrow{max-width:780px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  h1,h2,h3{font-family:'Playfair Display',Georgia,serif;font-weight:600;letter-spacing:-0.01em;line-height:1.15;color:var(--ink)}
+  nav{position:fixed;top:0;left:0;right:0;padding:16px 0;background:rgba(255,255,255,0.94);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:100}
+  .nav-inner{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 28px}
+  .logo{font-family:'Playfair Display',serif;font-size:22px;font-weight:600;letter-spacing:0.02em;color:var(--ink)}
+  .nav-cta{padding:10px 22px;background:var(--accent);color:#fff;border-radius:2px;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background 0.3s ease}
+  .nav-cta:hover{background:var(--accent-bright)}
+  .hero{padding:130px 0 50px;text-align:center;background:linear-gradient(180deg,var(--bg-soft) 0%,var(--bg) 80%)}
+  .hero .container{text-align:center}
+  .eyebrow{display:inline-block;padding:8px 18px;background:var(--gold-soft);border:1px solid var(--gold-deep);border-radius:100px;font-size:11px;font-weight:600;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold-deep);margin-bottom:28px}
+  .hero h1{font-size:clamp(38px,5.5vw,68px);line-height:1.1;margin:0 auto 20px;max-width:880px;text-align:center;text-wrap:balance}
+  .hero h1 em{color:var(--accent);font-style:italic;font-weight:500}
+  .hero-sub{font-size:18px;color:var(--ink-soft);max-width:680px;margin:0 auto 32px;line-height:1.65;text-align:center;text-wrap:pretty}
+  .hero-meta{text-align:center;margin:0 auto 40px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--ink-muted)}
+  .hero-meta span{margin:0 14px}
+  .video-label{text-align:center;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;font-weight:700}
+  .video-wrap{position:relative;padding-bottom:56.25%;margin:0 auto 14px;max-width:880px;border-radius:6px;overflow:hidden;border:2px solid var(--gold);box-shadow:0 30px 60px rgba(0,0,0,0.12);background:#111;cursor:pointer}
+  .video-poster{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a1a1a 0%,#2a2a2a 100%);overflow:hidden}
+  .video-poster::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center,rgba(241,196,15,0.18),transparent 60%);pointer-events:none}
+  .video-poster .poster-text{position:relative;text-align:center;color:#fff;z-index:2;padding:0 30px;max-width:680px}
+  .video-poster .poster-eyebrow{display:block;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:18px;font-weight:700}
+  .video-poster .poster-title{font-family:'Playfair Display',serif;font-size:clamp(22px,3vw,32px);line-height:1.2;color:#fff;margin-bottom:14px}
+  .video-poster .poster-sub{font-size:13px;color:#cfcfcf;line-height:1.5;letter-spacing:0.04em}
+  .video-poster .play-btn{position:absolute;width:84px;height:84px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(231,76,60,0.5);transition:all 0.3s ease;border:3px solid #fff;z-index:3;bottom:24px;right:24px}
+  .video-wrap:hover .video-poster .play-btn{transform:scale(1.08);background:var(--accent-bright)}
+  .video-poster .play-btn::after{content:"";display:block;width:0;height:0;border-style:solid;border-width:14px 0 14px 24px;border-color:transparent transparent transparent #fff;margin-left:6px}
+  .video-poster .video-source-label{position:absolute;bottom:18px;left:24px;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:#cfcfcf;background:rgba(0,0,0,0.55);padding:6px 12px;border-radius:2px}
+  .video-note{font-size:12px;color:var(--ink-muted);font-style:italic;letter-spacing:0.04em;margin:0 auto 32px;max-width:680px;line-height:1.55;text-align:center}
+  .typeform-iframe{width:100%;height:660px;border:0;border-radius:4px;display:block;background:var(--bg-soft)}
+  div[data-tf-live]{min-height:600px}
+  .cta-primary{display:block;width:fit-content;margin:24px auto;padding:18px 44px;background:var(--accent);color:#fff;border-radius:3px;font-size:14px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease;box-shadow:0 12px 30px rgba(231,76,60,0.25)}
+  .cta-primary:hover{background:var(--accent-bright);transform:translateY(-2px)}
+  .cta-secondary{display:block;width:fit-content;margin:18px auto 0;padding:14px 32px;background:transparent;color:var(--ink);border:2px solid var(--gold);border-radius:3px;font-size:13px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease}
+  .cta-secondary:hover{background:var(--gold-soft)}
+  section{padding:80px 0}
+  section.alt{background:var(--bg-soft)}
+  .section-eyebrow{font-size:11px;font-weight:700;letter-spacing:0.22em;text-transform:uppercase;color:var(--accent);margin-bottom:18px;text-align:center}
+  .section-title{font-size:clamp(32px,4.5vw,52px);margin-bottom:18px;text-align:center}
+  .section-title em{color:var(--accent);font-style:italic;font-weight:500}
+  .section-intro{font-size:17px;color:var(--ink-soft);max-width:680px;margin:0 auto 56px;line-height:1.65;text-align:center}
+  .section-intro em{color:var(--accent);font-style:italic}
+  .who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1000px;margin:0 auto}
+  @media(max-width:760px){.who-grid{grid-template-columns:1fr}}
+  .who-card{padding:36px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;box-shadow:0 4px 18px rgba(0,0,0,0.04)}
+  .who-card .num{font-family:'Playfair Display',serif;font-size:48px;color:var(--accent);font-weight:700;line-height:1;margin-bottom:12px}
+  .who-card h3{font-size:21px;margin-bottom:12px;color:var(--ink)}
+  .who-card p{color:var(--ink-soft);font-size:14px;line-height:1.7}
+  .pillar-list{max-width:880px;margin:0 auto}
+  .pillar{padding:36px 32px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;margin-bottom:18px;box-shadow:0 4px 18px rgba(0,0,0,0.04);border-left:4px solid var(--gold)}
+  .pillar .pillar-num{font-family:'Inter',sans-serif;font-size:12px;color:var(--accent);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:10px;font-weight:700}
+  .pillar h3{font-size:26px;margin-bottom:14px;color:var(--ink)}
+  .pillar .outcome{font-family:'Playfair Display',serif;font-size:20px;color:var(--gold-deep);font-style:italic;line-height:1.4;margin-bottom:14px}
+  .pillar p{color:var(--ink-soft);font-size:15px;line-height:1.7}
+  .work-note{margin:48px auto 0;padding:24px 28px;max-width:780px;text-align:center;font-style:italic;color:var(--ink-soft);font-size:15px;line-height:1.7;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .founder-block{display:flex;flex-direction:column;gap:36px;max-width:880px;margin:0 auto;align-items:center}
+  .founder-photo{width:100%;max-width:420px;aspect-ratio:4/5;background:linear-gradient(135deg,#0c0c0c 0%,#1f1f1f 100%);border:2px solid var(--gold);border-radius:4px;overflow:hidden;position:relative;box-shadow:0 30px 60px rgba(0,0,0,0.18);display:flex;align-items:center;justify-content:center}
+  .founder-photo::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 30% 30%,rgba(241,196,15,0.25),transparent 55%);pointer-events:none}
+  .founder-photo .monogram{font-family:'Playfair Display',serif;font-size:140px;font-weight:600;color:var(--gold);line-height:1;letter-spacing:-0.02em;position:relative;z-index:2}
+  .founder-photo-caption{position:absolute;bottom:0;left:0;right:0;padding:14px 18px;background:linear-gradient(180deg,transparent,rgba(0,0,0,0.85));font-size:12px;color:#fff;letter-spacing:0.1em;text-align:center;font-style:italic;font-weight:500;z-index:3}
+  .founder-text{width:100%;text-align:left}
+  .founder-text .name-loc{font-size:13px;color:var(--accent);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:14px;font-weight:700}
+  .founder-text h3{font-size:32px;margin-bottom:18px}
+  .founder-text .key-quote{font-family:'Playfair Display',serif;font-size:24px;color:var(--ink);font-style:italic;line-height:1.4;margin-bottom:24px;padding:18px 22px;border-left:4px solid var(--accent);background:var(--accent-soft)}
+  .founder-text .key-quote em{color:var(--accent);font-style:italic}
+  .founder-text p{color:var(--ink-soft);font-size:15px;line-height:1.75;margin-bottom:14px}
+  .founder-text .key-statement{font-weight:600;color:var(--ink);font-size:16px;margin:18px 0;line-height:1.6}
+  .founder-text ul{list-style:none;padding:0;margin:18px 0 0 0}
+  .founder-text li{padding:6px 0;color:var(--ink-soft);font-size:14px;border-bottom:1px solid var(--border)}
+  .founder-text li:last-child{border-bottom:0}
+  .founder-text li::before{content:"\00B7";color:var(--accent);margin-right:10px;font-weight:bold}
+  .founder-text .trust-badge{display:inline-block;margin-top:20px;padding:8px 14px;background:var(--gold-soft);border:1px solid var(--gold-deep);border-radius:100px;font-size:12px;color:var(--gold-deep);letter-spacing:0.08em;font-weight:600}
+  .receipts-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1080px;margin:0 auto}
+  @media(max-width:760px){.receipts-wall{grid-template-columns:1fr}}
+  .receipt{padding:28px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:3px;font-style:italic;color:var(--ink-soft);font-size:14px;line-height:1.65;border-top:3px solid var(--gold);box-shadow:0 4px 18px rgba(0,0,0,0.04)}
+  .receipt .name{display:block;margin-top:14px;font-style:normal;color:var(--accent);font-size:13px;letter-spacing:0.06em;font-weight:700}
+  .receipts-note{text-align:center;margin-top:36px;font-size:13px;color:var(--ink-muted);font-style:italic;max-width:680px;margin-left:auto;margin-right:auto;line-height:1.7}
+  .faq{max-width:780px;margin:0 auto}
+  .faq-item{padding:26px 0;border-bottom:1px solid var(--border)}
+  .faq-item h3{font-size:20px;margin-bottom:12px;color:var(--ink)}
+  .faq-item p{color:var(--ink-soft);font-size:15px;line-height:1.7}
+  .form-frame{max-width:680px;margin:0 auto;padding:40px;border:1px solid var(--border-strong);border-radius:6px;background:var(--bg-card);box-shadow:0 30px 60px rgba(0,0,0,0.08);border-top:4px solid var(--gold)}
+  .form-frame h3{font-size:26px;margin-bottom:8px;text-align:center}
+  .form-frame p{color:var(--ink-soft);font-size:14px;text-align:center;margin-bottom:24px}
+  .final-cta-section{text-align:center;padding:100px 0}
+  .final-cta-section h2{font-size:clamp(32px,4vw,46px);margin-bottom:24px;max-width:780px;margin-left:auto;margin-right:auto}
+  .final-cta-section h2 em{color:var(--accent);font-style:italic;font-weight:500}
+  .final-cta-section p{font-size:17px;color:var(--ink-soft);max-width:580px;margin:0 auto 36px;line-height:1.65}
+  .final-cta-section .tagline{margin-top:48px;font-family:'Playfair Display',serif;font-style:italic;font-size:24px;color:var(--ink)}
+  .application-note{font-size:13px;color:var(--ink-muted);margin-top:18px;letter-spacing:0.06em;font-style:italic}
+  footer{padding:40px 0;border-top:1px solid var(--border);text-align:center;color:var(--ink-muted);font-size:13px;background:var(--bg-soft)}
+  footer .footer-meta{font-size:12px;letter-spacing:0.04em}
+  footer .footer-disclaimer{margin-top:14px;font-size:11px;color:var(--ink-muted);font-style:italic}
+</style>
+</head>
+<body>
+<nav>
+<div class="nav-inner">
+<div class="logo">The Busy Trader · Inner Circle</div>
+<a href="#enrol" class="nav-cta">Apply</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container">
+<div class="eyebrow">The Busy Trader Inner Circle · By Heather Lindsey</div>
+<h1>If you have walked the bundle, <em>this is the room above it.</em></h1>
+<p class="hero-sub">A capped private cohort for working-adult traders who already know the methodology and are ready for the next room. Quarterly retreats. Monthly group calls with Heather. Application-only.</p>
+<p class="hero-meta"><span>Capped Cohort</span>·<span>Twice A Year</span>·<span>Application-Only</span></p>
+<div class="video-label">A Word From Heather</div>
+<div class="video-wrap" id="hero-video" role="button" tabindex="0" aria-label="Play preview video">
+<div class="video-poster">
+<div class="poster-text">
+<span class="poster-eyebrow">Sample Preview</span>
+<div class="poster-title">The room above the bundle.</div>
+<div class="poster-sub">A 90-second walkthrough of who the Inner Circle is for, what we do inside it, and how the cohort works.</div>
+</div>
+<div class="play-btn"></div>
+<span class="video-source-label">Preview · Recut from Masterclass</span>
+</div>
+</div>
+<p class="video-note">Sample preview frame, ready to swap with your custom 4-min Inner Circle video on day one of the install.</p>
+<a href="#enrol" class="cta-primary">Apply To Enrol</a>
+<a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-secondary" target="_blank">Or Book A Walkthrough Call</a>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">Who This Is For</div>
+<h2 class="section-title">If you have done the work, <em>and you are ready for the next room.</em></h2>
+<div class="who-grid">
+<div class="who-card">
+<div class="num">01</div>
+<h3>The Bundle Graduate</h3>
+<p>You have walked Level 1, Level 2, Labs 1, and Labs 2. You know the methodology. The bundle was the on-ramp; the Inner Circle is what comes next.</p>
+</div>
+<div class="who-card">
+<div class="num">02</div>
+<h3>The 30-Day Bootcamp Completer</h3>
+<p>You took the 1:1 30-day bootcamp with Heather, and you want a structured way to keep the methodology accountable across a full year, with peers running the same playbook.</p>
+</div>
+<div class="who-card">
+<div class="num">03</div>
+<h3>The Working Adult Ready For More</h3>
+<p>Day job, family, calendar that does not bend for the market - and you are ready to commit to a 12-month room with quarterly retreats and a small group of peers walking the same methodology.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="alt">
+<div class="container">
+<div class="section-eyebrow">The Work</div>
+<h2 class="section-title">Three pillars. <em>Twelve months.</em></h2>
+<p class="section-intro">Methodology over signals. Structure over noise. Peer-cohort accountability over solo grind.</p>
+<div class="pillar-list">
+<div class="pillar">
+<div class="pillar-num">Pillar One · Months 1-4</div>
+<h3>Methodology Mastery</h3>
+<p class="outcome">By the end of month 4, the 5 simple steps are running on auto-pilot inside your weekly trading routine.</p>
+<p>Deeper application of the 5-step methodology. Position sizing for working adults, risk frameworks built around a day-job calendar, and the journal cadence that compounds across a full year. Includes the Heather-led monthly working session for live trade-journal review.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Pillar Two · Months 5-8</div>
+<h3>Strategy Stack</h3>
+<p class="outcome">By the end of month 8, you are running swing and continuation strategies as a layered stack, not a series of isolated trades.</p>
+<p>Labs 1 + Labs 2 strategies in cohort context. Working through the swing-trading playbook with peer accountability and live setups. Includes the Think or Swim Advanced Script setup and the cohort-only strategy library.</p>
+</div>
+<div class="pillar">
+<div class="pillar-num">Pillar Three · Months 9-12</div>
+<h3>Wealth Layer</h3>
+<p class="outcome">By the end of month 12, the methodology is operating across your trading account and your family's wealth conversation.</p>
+<p>The Money Meeting framework applied to your own household. Annual review, retirement-account integration, the family-wealth conversation most working-adult traders skip until the year ends. Includes the Year-end Inner Circle retreat where the cohort works through the full annual review together.</p>
+</div>
+</div>
+<p class="work-note">Monthly group call with Heather. Quarterly in-person retreats (4 per year). Cohort-only community thread for daily check-ins and trade journals. Lifetime access to the Inner Circle library, including all course modules, methodology updates, and Money Meeting bonus material.</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">About Heather</div>
+<h2 class="section-title">Speaker. Author. Entrepreneur. <em>Founder of The Busy Trader.</em></h2>
+<div class="founder-block">
+<div class="founder-photo"><span class="monogram">HL</span><div class="founder-photo-caption">Heather Lindsey · Founder, The Busy Trader</div></div>
+<div class="founder-text">
+<div class="name-loc">Heather Lindsey · Founder · The Busy Trader</div>
+<h3>About Heather</h3>
+<div class="key-quote">"The methodology is the structure. <em>Most people who fail at trading do not fail at picks. They fail at structure.</em>"</div>
+<p>Heather Lindsey is the founder and CEO of The Busy Trader. She is a speaker, author, and entrepreneur who has spent years teaching working adults to trade the stock market on the Think or Swim platform without sacrificing their day jobs, their families, or their evenings.</p>
+<p class="key-statement">You do not need more signals. You need a methodology that fits a working-adult calendar and a room of peers running the same playbook.</p>
+<ul>
+<li>Founder + CEO, The Busy Trader</li>
+<li>Speaker, author, entrepreneur</li>
+<li>Creator of the 5 Simple Steps methodology</li>
+<li>Author of the Money Meeting family-wealth framework</li>
+<li>Designer of the Think or Swim Advanced Script</li>
+<li>Builder of the Discord chat community for working-adult traders</li>
+</ul>
+<span class="trust-badge">Trusted By Working-Adult Traders Worldwide</span>
+</div>
+</div>
+</div>
+</section>
+
+<section class="alt">
+<div class="container">
+<div class="section-eyebrow">A Note On Receipts</div>
+<h2 class="section-title">The proof is in the traders, <em>not the page.</em></h2>
+<p class="section-intro">Below are placeholder receipts for the founding Inner Circle cohort - real cohort numbers swap in after the first 12-month round runs. The deeper proof lives in The Busy Trader course graduates, the Discord chat, and the Money Meeting community today.</p>
+<div class="receipts-wall">
+<div class="receipt">"Walked the bundle, joined the Inner Circle, and finally have peers running the same methodology. The monthly group call with Heather is the part I never knew I needed."<span class="name">- Working-adult trader, founding cohort</span></div>
+<div class="receipt">"The quarterly retreat reset my whole approach to position sizing. Came back, ran the new framework, and the next month was the cleanest journal I have ever kept."<span class="name">- Bundle graduate, founding cohort</span></div>
+<div class="receipt">"The Money Meeting pillar was the surprise. Started the cohort for my own trading and ended up using the framework with my family. Both got better."<span class="name">- 30-day bootcamp graduate, founding cohort</span></div>
+</div>
+<p class="receipts-note">Placeholder receipts. Real cohort testimonials swap in after the first 12-month Inner Circle round completes.</p>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">FAQ</div>
+<h2 class="section-title">Common questions, <em>before applying.</em></h2>
+<div class="faq">
+<div class="faq-item"><h3>How is this different from the bundle?</h3><p>The bundle ($2,996) is the methodology + the strategy stack delivered as four self-paced courses. The Inner Circle is the 12-month cohort room above it. Same methodology. Same teacher. Different format. Application-only, capped cohort, monthly group calls with Heather, quarterly retreats, and a peer community running the same playbook with you.</p></div>
+<div class="faq-item"><h3>Do I need to have completed the bundle first?</h3><p>Not strictly required, but strongly preferred. The Inner Circle assumes you know the 5 simple steps and have run trades on the Think or Swim platform. If you are earlier than that, start with Level 1 first and then apply to the Inner Circle once you have walked the ladder. The application form will route you appropriately.</p></div>
+<div class="faq-item"><h3>What is the time commitment?</h3><p>3-4 hours per week. One monthly group call with Heather (90 minutes, recorded). Daily check-in optional in the cohort community. One quarterly in-person retreat (2-3 days, 4 per year, optional but strongly encouraged).</p></div>
+<div class="faq-item"><h3>What's the price?</h3><p>Stage-specific, confirmed at intake. The Inner Circle is application-only; pricing is shared on the intake call once we have confirmed cohort fit. Both annual and split-pay options are available.</p></div>
+<div class="faq-item"><h3>How big is the cohort?</h3><p>Small. Capped per round to keep the monthly group calls real and the peer accountability tight. Two cohorts per year, founding cohort opens [date].</p></div>
+<div class="faq-item"><h3>Where are the retreats?</h3><p>The first founding-cohort retreat is at a US conference venue (location confirmed at intake). Future retreats rotate. All retreats are designed around school-holidays and workweek-friendly calendars - because working adults need that flexibility.</p></div>
+<div class="faq-item"><h3>Refund policy?</h3><p>Yes. First 30 days, full refund if the room is not the right fit, no questions. The cohort is designed for committed traders, not casual sign-ups - if you are unsure, the intake call is the place to ask.</p></div>
+<div class="faq-item"><h3>What if I cannot make the live monthly call?</h3><p>Recordings posted within 48 hours. Cohort community is asynchronous, so the daily check-in works around your schedule. The retreats are quarterly, scheduled with 90-day notice, designed for working-adult calendars.</p></div>
+<div class="faq-item"><h3>Why do I have to apply?</h3><p>The cohort is small and the room only works if everyone in it is at a similar stage with the methodology. Application is a 4-minute form; we get back to you within 48 hours. If the cohort is full or the timing is not right, we route you to the waitlist for the next round or to the right course tier in the meantime.</p></div>
+</div>
+</div>
+</section>
+
+<section id="enrol" class="alt">
+<div class="container-narrow">
+<div class="section-eyebrow">Enrol</div>
+<h2 class="section-title">Join the founding cohort.</h2>
+<p class="section-intro">Four-minute application. Direct intake call on submit. Cohorts open twice a year and cap to keep the monthly group call real.</p>
+<div class="form-frame">
+<h3>The Busy Trader Inner Circle · Application</h3>
+<p>Three minutes to fill in. We will get back to you within 48 hours.</p>
+<div data-tf-live="01KQEYP67GX44W6Z3YFBSXS3KS"></div>
+<noscript><iframe src="https://form.typeform.com/to/uTtFirS4" class="typeform-iframe" title="The Busy Trader Inner Circle Application"></iframe></noscript>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container-narrow">
+<div class="final-cta-section">
+<h2>If you have walked the methodology, this is the conversation you have been <em>waiting to have.</em></h2>
+<p>Application takes four minutes. After you submit, you will pick a time directly from the intake calendar. No setter calls. No back-and-forth. Straight to the cohort fit conversation.</p>
+<a href="#enrol" class="cta-primary">Apply To Enrol</a>
+<p class="application-note">Four-minute form · Direct intake call on submit</p>
+<p class="tagline">The room above the bundle. <em>Finally built.</em></p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p class="footer-meta">The Busy Trader · Heather Lindsey · 2026</p>
+<p class="footer-disclaimer">Sample landing page built by AG1 Consulting. Brand colours and copy locked with Heather on day one of the install.</p>
+</div>
+</footer>
+
+<script src="//embed.typeform.com/next/embed.js"></script>
+<script>
+(function(){
+  var v = document.getElementById('hero-video');
+  if(!v) return;
+  function load(){
+    window.location.href = '#enrol';
+  }
+  v.addEventListener('click', load);
+  v.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); load(); }});
+})();
+</script>
+</body>
+</html>
